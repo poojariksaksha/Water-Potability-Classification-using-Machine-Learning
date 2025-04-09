@@ -4,28 +4,13 @@ This project uses machine learning models to classify water samples as **potable
 
 ---
 
-## 📌 Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Features](#features)
-- [Methodology](#methodology)
-- [Models Implemented](#models-implemented)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [How to Use](#how-to-use)
-- [Future Work](#future-work)
-- [Contributors](#contributors)
-- [License](#license)
-
----
-
-## 🧠 Overview
+## Overview
 
 Access to safe drinking water is a global concern. Traditional water testing methods are often expensive and slow. We offer a **data-driven solution** using machine learning to classify water samples based on features like pH, hardness, solids, and chloramines. This can help identify unsafe water sources and prioritize treatment strategies.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Samples:** 3,276 water samples
 - **Source:** [Kaggle - Water Potability Dataset](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
@@ -34,7 +19,7 @@ Access to safe drinking water is a global concern. Traditional water testing met
 
 ---
 
-## 🧪 Features
+## Features
 
 Key features used in modeling:
 - `pH`
@@ -51,7 +36,7 @@ All features were scaled using **Min-Max Normalization**.
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 1. **Data Cleaning**: Median imputation for missing values
 2. **Outlier Detection**: Handled using robust statistics
@@ -62,34 +47,17 @@ All features were scaled using **Min-Max Normalization**.
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
-| Model | Accuracy |
-|-------|----------|
-| Naive Bayes | ~61% |
-| Decision Tree | ~77% |
-| Support Vector Machine | Moderate accuracy, low recall |
-| Random Forest | ~81% |
-| XGBoost | ~79.6% |
-| **Hybrid (Random Forest + DNN)** | **83.28%** (Best Performer) |
+Naive Bayes | Decision Tree | Support Vector Machine | Random Forest | XGBoost | **Hybrid (Random Forest + DNN)** (Best Performer) 
 
 ---
 
-## 📈 Evaluation
-
-Evaluation metrics used:
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
-- **Confusion Matrix**
-
-### 🔍 Hybrid Model Performance
+### Hybrid Model Performance
 - **Accuracy:** 83.28%
 - **Precision:** 85.16%
 - **Recall:** 81.67%
 - **F1-Score:** 83.38%
-- **Confusion Matrix:** Balanced classification of potable and non-potable samples
 
 ---
 
