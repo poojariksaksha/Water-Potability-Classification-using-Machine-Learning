@@ -1,2 +1,2 @@
 # Water-Potability-using-Water-Quality-Metrics
-Developed a machine learning model to classify water as potable or non-potable using a dataset of water samples. 
+Developed a machine learning model to classify water as potable or non-potable using a dataset of water samples. Employed statistical techniques for data analysis, including correlation analysis and median imputation for missing values. Utilized pH, hardness, solids, and chloramines metrics for predictive modeling. Evaluated model effectiveness using accuracy, precision, recall, and confusion matrix, providing key insights for water resource management and policy-making decisions.
