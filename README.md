@@ -1,4 +1,4 @@
-# 💧 Water Potability Prediction using Machine Learning
+#  Water Potability Prediction using Machine Learning
 
 This project uses machine learning models to classify water samples as **potable (safe to drink)** or **non-potable**, based on various **physico-chemical properties**. With rising water pollution, the need for scalable and intelligent water testing solutions has become critical. Our hybrid approach combining **Random Forest** and **Deep Neural Network (DNN)** demonstrates a strong ability to predict water potability, providing essential tools for policymakers and water management authorities.
 
